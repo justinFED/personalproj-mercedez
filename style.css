@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(mercedes.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+    
+}
+
+.icon{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+
+.menu{
+    width: 400px;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: red;
+
+}
+
+.content h1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+
+.heads{
+    
+text-shadow: 2px 2px black;
+color: white;
+text-align: center;
+font-size: 25px;
+padding-top: 30px;
+
+}
+
+
+.merc{
+    
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 35px;
+    
+    }
+    
+
+.underline{
+        border-bottom: 2px solid gray;
+    }
+
+  
